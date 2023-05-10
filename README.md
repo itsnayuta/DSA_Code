@@ -1,2 +1,2 @@
-# CTDLvGT_CodePtit
+# CTDL&GT_CodePtit
 Full Code DSA 

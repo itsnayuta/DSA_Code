@@ -32,8 +32,10 @@ int main()
 				ll x = st.top(); st.pop();
 				ll y = st.top(); st.pop();
 				st.push(calc(y, x, v[i]));
+			} else {
 				st.push(stoll(v[i]));
 			}
+		}
 		cout << st.top() << endl;
 	}
 	return 0;

@@ -4,7 +4,7 @@ int n, check;
 queue<string> q;
 
 void Try(string s){
-    long long f = 0;
+    int f = 0;
     for (int i = 0; i < s.size(); i++){
         f = f * 10 + (s[i] - '0');
         f %= n;
